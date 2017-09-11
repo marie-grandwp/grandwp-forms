@@ -1,0 +1,88 @@
+.help-block{
+    line-height: 1.4;
+    color: #666;
+    padding: 7px;
+    background: rgba(255, 211, 44, 0.1);
+    border-radius: 2px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.help-block a{
+    text-transform: uppercase;
+}
+.help-block:before{
+    content: "\f05a";
+    display: inline-block;
+    font-family: 'fontawesome';
+    font-style: normal;
+}
+#gdfrm-settings .setting-row{
+    width: 100%;
+}
+#gdfrm-settings .setting-row input[type=text]{
+    width: 65%;
+    background: #fff;
+}
+#gdfrm-settings .setting-row input[type=number]{
+    background: #fff;
+}
+#gdfrm-settings .setting-row select{
+    min-width: 100px;
+    width: 65%;
+    background: #fff;
+}
+#gdfrm-settings .setting-row .inline-label{
+    display: inline-block;
+    margin-right: 5px;
+}
+#save-form-button{
+    padding: 10px 15px;
+    float: right;
+}
+
+.setting-block .setting-block-title{
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.setting-block .setting-block-title img{
+    height: 20px;
+    position: relative;
+    top: 2px;
+
+}
+
+.setting-block.pro-feature{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.setting-block.pro-feature .setting-block-title:after{
+    content: '(Pro Feature)';
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.one-third {
+    padding: 0 30px;
+}
+.setting-row label {
+    width: 30%;
+    margin-right: 3%;
+}
+
+.setting-row label.switcher{
+    width: 100%;
+    margin-right: 0;
+}
+.setting-row label.switcher span{
+    margin-left: 10px;
+}
+
+.setting-block{
+    margin-bottom: 50px;
+}

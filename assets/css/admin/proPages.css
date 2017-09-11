@@ -1,0 +1,171 @@
+#wpcontent .grand_submissions_list_container{
+    background: url("../../images/submissions.png") no-repeat ;
+    background-size:cover ;
+    position: fixed;
+    left: 160px;
+    top:32px;
+    width: calc(100% - 160px);
+    height: calc(100% - 32px);
+}
+#wpcontent .grand_themes_container{
+    background: url("../../images/themes.png") no-repeat ;
+    background-size:cover ;
+    position: fixed;
+    left: 160px;
+    top:32px;
+    width: calc(100% - 160px);
+    height: calc(100% - 32px);
+}
+a:focus
+{
+    color: transparent;
+    box-shadow: none;
+}
+#grandwplogo{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.gopro{
+    color: #fff;
+    text-align: center;
+}
+.gopro p{
+    font-size: 28px;
+    position: fixed;
+
+}
+.gopro p.upgrade{
+    top: 300px;
+    left: calc(50% - 300px);
+}
+.gopro .gd-button{
+    width: 246px;
+    height: auto;
+    padding: 15px;
+    border-radius: 31px;
+    background-color: #2e5aef;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    top: 400px;
+    position: fixed;
+    left: calc(50% - 100px);
+    border: none;
+    text-decoration: none;
+}
+
+.gopro .gd-button:hover{
+    background: #1548f5;
+    color: #fff;
+    text-decoration: none;
+}
+.gopro .gd-button:focus{
+    outline: none;
+}
+.gopro p.followus{
+    position: fixed;
+    bottom:200px;
+    left: calc(50% - 55px);
+}
+.gopro ul{
+    position: fixed;
+    bottom:150px;
+    left: calc(50% - 83px);
+}
+.gopro ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+@media screen and (max-width: 960px){
+    #wpcontent .grand_submissions_list_container{
+        left: 35px;
+        width: calc(100% - 35px);
+    }
+    .gopro p{
+        font-size: 25px;
+    }
+    .gopro p.upgrade
+    {
+        left: calc(50% - 317px);
+        white-space: nowrap;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    #wpcontent .grand_submissions_list_container{
+        left: 0px;
+        width: calc(100%);
+    }
+    .gopro p{
+        font-size: 25px;
+    }
+    .gopro p.upgrade {
+        top: 300px;
+        left: 5%;
+    }
+}
+@media (max-width: 768px)
+{
+    .gopro p.upgrade
+    {
+        top: 315px;
+        left: 5%;
+    }
+    .gopro button
+    {
+        top: 48%;
+    }
+}
+@media (max-width: 735px)
+{
+    .gopro p.upgrade
+    {
+        left: 8%;
+        font-size: 22px;
+        white-space: normal;
+    }
+
+}
+@media (max-width: 414px)
+{
+    #grandwplogo
+    {
+        top: 20px;
+        left: 4%;
+    }
+    .gopro p.upgrade
+    {
+        top: 30%;
+        left: 0%;
+    }
+    .gopro button
+    {
+        top: 50%;
+        left: 20%;
+    }
+    .gopro ul
+    {
+        left: calc(50% - 104px);
+        bottom: 7%;
+    }
+    .gopro p.followus
+    {
+        bottom: 15%;
+        left: calc(50% - 69px);
+    }
+}
+@media (max-width: 360px)
+{
+    .gopro p.upgrade
+    {
+        font-size: 19px;
+    }
+    .gopro button
+    {
+        left: 17%;
+    }
+}
